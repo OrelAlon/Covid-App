@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Covid Data</h1>
+      <canvas id="myChart"></canvas>
+      <div class="boxes hidden">
+        <h2 class="countryHeader hidden"></h2>
+        <div class="box">
+          <h3>Total Cases</h3>
+          <span id="totalCases"></span>
+        </div>
+        <div class="box">
+          <h3>New Cases</h3>
+          <span id="newCases"></span>
+        </div>
+        <div class="box">
+          <h3>Total Deaths</h3>
+          <span id="totalDeaths"></span>
+        </div>
+        <div class="box">
+          <h3>New Deaths</h3>
+          <span id="newDeaths"></span>
+        </div>
+        <div class="box">
+          <h3>Total Recoverd</h3>
+          <span id="totalRecoverd"></span>
+        </div>
+        <div class="box">
+          <h3>Total Critical</h3>
+          <span id="critical"></span>
+        </div>
+      </div>
+      <p class="error hidden">Error with data...</p>
+      <div class="firstLineBtn hidden">
+        <button class="btn1" id="confirmed">Confirmed</button>
+        <button class="btn1" id="critical">Critical</button>
+        <button class="btn1" id="death">Deaths</button>
+        <button class="btn1" id="recovered">Recovered</button>
+      </div>
+      <div class="secondLineBtn">
+        <button class="btn2" id="asia">Asia</button>
+        <button class="btn2" id="europe">Europe</button>
+        <button class="btn2" id="africa">Africa</button>
+        <button class="btn2" id="americas">Americas</button>
+        <button class="btn2" id="world">World</button>
+      </div>
+      <div id="country"></div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="./script.js"></script>
+
+  <script src="./Chart.js"></script>
+</html>

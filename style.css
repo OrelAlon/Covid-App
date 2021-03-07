@@ -1,0 +1,70 @@
+.hidden {
+  display: none !important;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  height: 10rem;
+}
+
+.box {
+  border: solid 3px rgb(82, 77, 77);
+  width: 75px;
+  height: 70px;
+  font-size: 15px;
+  text-align: center;
+}
+#country {
+  display: inline-block;
+  max-width: 1500px;
+}
+p {
+  display: inline-block;
+  margin-right: 8px;
+  /* border: rgb(185, 180, 180) 1px solid; */
+  background-color: rgb(245, 240, 240);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+h3 {
+  margin: 0;
+  margin-top: 3px;
+}
+
+.firstLineBtn,
+.secondLineBtn {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 90rem;
+  max-height: 40rem;
+}
+.btn1,
+.btn2 {
+  padding: 5px 8px;
+  margin: 8px 2px;
+  border-radius: 6px;
+}
+.btn1 {
+  background: rgb(207, 9, 59);
+  font-weight: bold;
+}
+.btn2 {
+  background: rgb(21, 196, 50);
+  font-weight: bold;
+}
+#myChart {
+  max-width: 90rem;
+  max-height: 40rem;
+}
+.container {
+  margin: auto;
+  justify-items: center;
+  max-width: 90rem;
+  max-height: 40rem;
+}
+h1 {
+  text-align: center;
+}
